@@ -1,0 +1,95 @@
+* {
+    background: #E5E5E5;
+    padding: 5px;
+}
+
+header {
+    border-style: dotted;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo {
+    display:flex;
+    position: relative;
+    border-style: dashed;
+    width: 30px;
+    padding: 20px;
+    left: 100px;
+    
+}
+
+.main-container {
+    border-style: dotted;
+    margin-top: 10px;    
+    height: 600px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.button-start {
+    margin-bottom: 10px;
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    background: #0A3871;
+    border-radius: 24px;
+    }
+
+    .button-cancel {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 579px;
+        top: 554px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+
+        /* revisar porque el texto no esta centrado */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+    }
+
+
+
+.footer-container {
+    border-style: dashed;
+    height: 200px;
+    margin-top: 10px;
+}
